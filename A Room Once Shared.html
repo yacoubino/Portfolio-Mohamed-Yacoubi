@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>A Room Once Shared</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="game-window">
+
+    <!-- HEADER -->
+    <header class="hero">
+        <h1>🖥️ A Room Once Shared</h1>
+        <p>Psychological Narrative Game</p>
+        <a href="index.html" class="pixel-btn">⬅ BACK</a>
+    </header>
+
+    <!-- STORY -->
+    <section class="panel">
+        <h2>📖 STORY</h2>
+        <p>
+            A Room Once Shared is a game about being trapped in time, 
+            caught in the loop of memories that once brought joy but now hold you back. 
+            It explores how the past can become a prison, and how sometimes the hardest 
+            step forward is learning to let go and forget.
+
+        </p>
+    </section>
+
+    <!-- SCREENSHOTS -->
+    <section class="panel">
+        <h2>🖼️ SCREENSHOTS</h2>
+
+        <div class="pixel-grid">
+            <img src="assets/A Room Once Shared/1.png" class="screenshot" onclick="openLightbox(this)">
+            <img src="assets/A Room Once Shared/2.png" class="screenshot" onclick="openLightbox(this)">
+            <img src="assets/A Room Once Shared/3.png" class="screenshot" onclick="openLightbox(this)">
+            <img src="assets/A Room Once Shared/4.png" class="screenshot" onclick="openLightbox(this)">
+            <img src="assets/A Room Once Shared/5.png" class="screenshot" onclick="openLightbox(this)">
+            <img src="assets/A Room Once Shared/6.png" class="screenshot" onclick="openLightbox(this)">
+            <img src="assets/A Room Once Shared/7.png" class="screenshot" onclick="openLightbox(this)">
+            <img src="assets/A Room Once Shared/8.png" class="screenshot" onclick="openLightbox(this)">
+            <img src="assets/A Room Once Shared/9.png" class="screenshot" onclick="openLightbox(this)">
+            <img src="assets/A Room Once Shared/10.png" class="screenshot" onclick="openLightbox(this)">
+            <img src="assets/A Room Once Shared/11.png" class="screenshot" onclick="openLightbox(this)">
+        </div>
+    </section>
+
+
+    <div id="lightbox" class="lightbox" onclick="closeLightbox(event)">
+        <span class="lightbox-close">✖</span>
+        <img id="lightbox-img">
+    </div>
+    <!-- FEATURES -->
+    <section class="panel">
+        <h2>🎮 FEATURES</h2>
+        <ul class="pixel-list">
+            <li>Story-driven gameplay</li>
+            <li>Psychological themes</li>
+            <li>Minimalist pixel visuals</li>
+            <li>Emotional sound design</li>
+        </ul>
+    </section>
+
+    <!-- REVIEWS -->
+    <section class="panel">
+        <h2>⭐ REVIEWS</h2>
+        <p>"A quiet but powerful experience." – Player</p>
+        <p>"Emotionally disturbing in the best way." – Indie Reviewer</p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 • PIXEL DEV MODE</p>
+    </footer>
+
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>

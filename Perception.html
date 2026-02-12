@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Perception</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="game-window">
+
+    <!-- HEADER -->
+    <header class="hero">
+        <h1>🖥️ Perception</h1>
+        <p>Psychological Narrative Game</p>
+        <a href="index.html" class="pixel-btn">⬅ BACK</a>
+    </header>
+
+    <!-- STORY -->
+    <section class="panel">
+        <h2>📖 STORY</h2>
+        <p>
+            Perception is a short-form psychological narrative game
+            where players navigate a fractured mind shaped by
+            trauma, isolation, and avoidance.
+
+            You don’t wear a mask.
+            You live behind one.
+        </p>
+    </section>
+
+    <!-- SCREENSHOTS -->
+    <section class="panel">
+        <h2>🖼️ SCREENSHOTS</h2>
+
+        <div class="pixel-grid">
+            <img src="assets/Perception/1.png" class="screenshot" onclick="openLightbox(this)">
+            <img src="assets/Perception/2.png" class="screenshot" onclick="openLightbox(this)">
+            <img src="assets/Perception/3.png" class="screenshot" onclick="openLightbox(this)">
+            <img src="assets/Perception/4.png" class="screenshot" onclick="openLightbox(this)">
+            <img src="assets/Perception/5.png" class="screenshot" onclick="openLightbox(this)">
+            <img src="assets/Perception/6.png" class="screenshot" onclick="openLightbox(this)">
+            <img src="assets/Perception/7.png" class="screenshot" onclick="openLightbox(this)">
+            <img src="assets/Perception/8.png" class="screenshot" onclick="openLightbox(this)">
+            <img src="assets/Perception/9.png" class="screenshot" onclick="openLightbox(this)">
+        </div>
+    </section>
+
+
+    <div id="lightbox" class="lightbox" onclick="closeLightbox(event)">
+        <span class="lightbox-close">✖</span>
+        <img id="lightbox-img">
+    </div>
+    <!-- FEATURES -->
+    <section class="panel">
+        <h2>🎮 FEATURES</h2>
+        <ul class="pixel-list">
+            <li>Story-driven gameplay</li>
+            <li>Psychological themes</li>
+            <li>Minimalist pixel visuals</li>
+            <li>Emotional sound design</li>
+        </ul>
+    </section>
+
+    <!-- REVIEWS -->
+    <section class="panel">
+        <h2>⭐ REVIEWS</h2>
+        <p>"A quiet but powerful experience." – Player</p>
+        <p>"Emotionally disturbing in the best way." – Indie Reviewer</p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 • PIXEL DEV MODE</p>
+    </footer>
+
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>

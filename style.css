@@ -1,0 +1,220 @@
+/* =========================
+   RESET
+========================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* =========================
+   BASE
+========================= */
+body {
+    background: #f2d6c1; /* sunset background */
+    font-family: 'Press Start 2P', monospace;
+    font-size: 10px;
+    color: #3b2a22;
+    line-height: 1.8;
+}
+
+/* =========================
+   GAME WINDOW
+========================= */
+.game-window {
+    max-width: 900px;
+    margin: 30px auto;
+    background: #fff3e8;
+    border: 6px solid #5c3b2e;
+    padding: 20px;
+}
+
+/* =========================
+   HERO
+========================= */
+.hero {
+    text-align: center;
+    background: #ffd1b8;
+    border: 4px solid #5c3b2e;
+    padding: 30px 15px;
+    margin-bottom: 25px;
+}
+
+.hero h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 10px;
+    margin-bottom: 18px;
+}
+
+/* =========================
+   PIXEL BUTTON
+========================= */
+.pixel-btn {
+    display: inline-block;
+    padding: 10px 18px;
+    background: #ffe6d6;
+    border: 4px solid #5c3b2e;
+    color: #3b2a22;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.pixel-btn:hover {
+    background: #ffffff;
+}
+
+/* =========================
+   PANELS
+========================= */
+.panel {
+    background: #ffe6d6;
+    border: 4px solid #5c3b2e;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.panel h2 {
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+/* =========================
+   SKILLS GRID
+========================= */
+.pixel-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 12px;
+}
+
+.pixel-box {
+    background: #ffffff;
+    border: 3px solid #5c3b2e;
+    padding: 12px;
+    text-align: center;
+}
+
+/* =========================
+   PROJECTS
+========================= */
+.project {
+    background: #ffffff;
+    border: 3px solid #5c3b2e;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.project h3 {
+    font-size: 11px;
+    margin-bottom: 8px;
+}
+
+.project p {
+    font-size: 9px;
+}
+
+.project span {
+    display: block;
+    margin-top: 8px;
+    font-size: 8px;
+    color: #d48c70;
+}
+
+/* =========================
+   CONTACT
+========================= */
+.panel p {
+    font-size: 9px;
+    margin-bottom: 8px;
+}
+
+/* =========================
+   FOOTER
+========================= */
+footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 8px;
+    color: #5c3b2e;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 600px) {
+    body {
+        font-size: 9px;
+    }
+
+    .hero h1 {
+        font-size: 18px;
+    }
+
+    .game-window {
+        margin: 15px;
+    }
+}
+/* =========================
+   PROJECT LINK
+========================= */
+.project-link {
+    color: #3b2a22;
+    text-decoration: none;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
+
+/* =========================
+   SCREENSHOTS
+========================= */
+.screenshot {
+    width: 100%;
+    border: 3px solid #5c3b2e;
+    background: #ffffff;
+}
+
+/* =========================
+   PIXEL LIST
+========================= */
+.pixel-list {
+    list-style: none;
+    font-size: 9px;
+}
+
+.pixel-list li {
+    margin-bottom: 10px;
+}
+/* =========================
+   LIGHTBOX (SCREENSHOT ZOOM)
+========================= */
+.lightbox {
+    position: fixed;
+    inset: 0;
+    background: rgba(59, 42, 34, 0.9);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.lightbox img {
+    max-width: 85%;
+    max-height: 85%;
+    border: 4px solid #5c3b2e;
+    background: #fff;
+}
+
+.lightbox-close {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 14px;
+    color: #fff3e8;
+    cursor: pointer;
+}
