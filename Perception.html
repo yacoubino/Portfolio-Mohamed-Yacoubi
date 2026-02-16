@@ -1,83 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Perception</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Perception</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="game-window">
+<!-- HERO -->
+<section class="hero-home fade-in">
+    <div class="hero-overlay"></div>
+    <div class="hero-content fade-in">
+        <h1>Perception</h1>
+        <p>Psychological Narrative Experience</p>
+        <a href="index.html" class="btn">← Back to Portfolio</a>
+    </div>
+</section>
 
-    <!-- HEADER -->
-    <header class="hero">
-        <h1>🖥️ Perception</h1>
-        <p>Psychological Narrative Game</p>
-        <a href="index.html" class="pixel-btn">⬅ BACK</a>
-    </header>
-
-    <!-- STORY -->
-    <section class="panel">
-        <h2>📖 STORY</h2>
+<!-- STORY -->
+<section class="section fade-in">
+    <div class="container">
+        <h2>The Experience</h2>
         <p>
             Perception is a short-form psychological narrative game
             where players navigate a fractured mind shaped by
             trauma, isolation, and avoidance.
-
             You don’t wear a mask.
-            You live behind one.
+            You live behind one
         </p>
-    </section>
-
-    <!-- SCREENSHOTS -->
-    <section class="panel">
-        <h2>🖼️ SCREENSHOTS</h2>
-
-        <div class="pixel-grid">
-            <img src="assets/Perception/1.png" class="screenshot" onclick="openLightbox(this)">
-            <img src="assets/Perception/2.png" class="screenshot" onclick="openLightbox(this)">
-            <img src="assets/Perception/3.png" class="screenshot" onclick="openLightbox(this)">
-            <img src="assets/Perception/4.png" class="screenshot" onclick="openLightbox(this)">
-            <img src="assets/Perception/5.png" class="screenshot" onclick="openLightbox(this)">
-            <img src="assets/Perception/6.png" class="screenshot" onclick="openLightbox(this)">
-            <img src="assets/Perception/7.png" class="screenshot" onclick="openLightbox(this)">
-            <img src="assets/Perception/8.png" class="screenshot" onclick="openLightbox(this)">
-            <img src="assets/Perception/9.png" class="screenshot" onclick="openLightbox(this)">
-        </div>
-    </section>
-
-
-    <div id="lightbox" class="lightbox" onclick="closeLightbox(event)">
-        <span class="lightbox-close">✖</span>
-        <img id="lightbox-img">
     </div>
-    <!-- FEATURES -->
-    <section class="panel">
-        <h2>🎮 FEATURES</h2>
-        <ul class="pixel-list">
-            <li>Story-driven gameplay</li>
-            <li>Psychological themes</li>
-            <li>Minimalist pixel visuals</li>
-            <li>Emotional sound design</li>
-        </ul>
-    </section>
+</section>
 
-    <!-- REVIEWS -->
-    <section class="panel">
-        <h2>⭐ REVIEWS</h2>
-        <p>"A quiet but powerful experience." – Player</p>
-        <p>"Emotionally disturbing in the best way." – Indie Reviewer</p>
-    </section>
+<!-- TRAILER -->
 
-    <!-- FOOTER -->
-    <footer>
-        <p>© 2026 • PIXEL DEV MODE</p>
-    </footer>
+<!-- SCREENSHOTS -->
+<section class="section fade-in">
+    <div class="container">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="assets/Perception/1.png" onclick="openLightbox(this)">
+            <img src="assets/Perception/2.png" onclick="openLightbox(this)">
+            <img src="assets/Perception/3.png" onclick="openLightbox(this)">
+            <img src="assets/Perception/4.png" onclick="openLightbox(this)">
+            <img src="assets/Perception/5.png" onclick="openLightbox(this)">
+            <img src="assets/Perception/6.png" onclick="openLightbox(this)">
+            <img src="assets/Perception/7.png" onclick="openLightbox(this)">
+            <img src="assets/Perception/8.png" onclick="openLightbox(this)">
+            <img src="assets/Perception/9.png" onclick="openLightbox(this)">
+        </div>
+    </div>
+</section>
 
+<!-- FEATURES -->
+<section class="section dark fade-in">
+    <div class="container features">
+        <div class="feature">
+            <h3>Emotional Narrative</h3>
+            <p>Deep psychological storytelling told through space and silence.</p>
+        </div>
+        <div class="feature">
+            <h3>Minimal Mechanics</h3>
+            <p>Focused interaction to reinforce emotional tension.</p>
+        </div>
+        <div class="feature">
+            <h3>Environmental Storytelling</h3>
+            <p>Details hidden within space, light and sound design.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section fade-in">
+    <div class="container project-breakdown">
+
+        <h2>My Role & Contributions</h2>
+
+        <div class="breakdown-grid">
+
+            <div class="breakdown-card">
+                <h3>What I Did</h3>
+                <ul>
+                    <li>Designed the core narrative concept</li>
+                    <li>Developed the game in Unity</li>
+                    <li>Level Design</li>
+                </ul>
+            </div>
+
+            <div class="breakdown-card">
+                <h3>Skills Gained</h3>
+                <ul>
+                    <li>Advanced environmental storytelling</li>
+                    <li>Emotional pacing in level design</li>
+                </ul>
+            </div>
+
+            <div class="breakdown-card">
+                <h3>What I Learned</h3>
+                <ul>
+                    <li>How atmosphere can replace dialogue</li>
+                    <li>The importance of silence in storytelling</li>
+                    <li>Balancing mechanics with narrative weight</li>
+                    <li>Designing meaningful player spaces</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<section class="section dark fade-in">
+    <div class="container project-meta">
+
+        <h2>Project Impact & Details</h2>
+
+        <div class="meta-grid">
+
+            <!-- HOW PROJECT CHANGED ME -->
+            <div class="meta-card">
+                <h3>How This Project Shaped Me</h3>
+                <p>
+                    This project marked a turning point in my design approach. 
+                    I learned to prioritize emotional atmosphere over complex mechanics 
+                    and understood how environmental storytelling can carry narrative weight.
+                    It strengthened my confidence in creating psychologically driven experiences.
+                </p>
+            </div>
+
+            <!-- TECHNOLOGIES -->
+            <div class="meta-card">
+                <h3>Technologies Used</h3>
+                <ul>
+                    <li>Unity Engine</li>
+                    <li>C#</li>
+                    <li>Photoshop</li>
+                    <li>Audition</li>
+                </ul>
+            </div>
+
+            <!-- PROJECT STATS -->
+            <div class="meta-card">
+                <h3>Project Statistics</h3>
+                <ul>
+                    <li>5th Place in Global Game Jam Tunisia 2k26</li>
+                    <li>Positive Feedback</li>
+                </ul>
+            </div>
+
+        </div>
+
+
+
+    </div>
+</section>
+
+<!-- LIGHTBOX -->
+<div id="lightbox" class="lightbox" onclick="closeLightbox(event)">
+    <span class="lightbox-close">✕</span>
+    <img id="lightbox-img">
 </div>
-<script src="script.js"></script>
 
+<footer>
+    © 2026 Mohamed Yacoubi
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>

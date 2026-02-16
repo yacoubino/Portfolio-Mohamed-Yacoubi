@@ -408,3 +408,69 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+/* HERO BUTTONS */
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Secondary Button */
+.btn-outline {
+    background: transparent;
+    border: 1px solid #888;
+    color: #bbb;
+}
+
+.btn-outline:hover {
+    background: white;
+    color: black;
+}
+
+
+/* PROJECT META SECTION */
+.project-meta {
+    margin-top: 60px;
+}
+
+.meta-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.meta-card {
+    background: rgba(255,255,255,0.03);
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.meta-card h3 {
+    margin-bottom: 20px;
+}
+
+.meta-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.meta-card li {
+    margin-bottom: 12px;
+    font-size: 14px;
+    opacity: 0.85;
+}
+
+.project-cta {
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* Responsive */
+@media(max-width: 900px) {
+    .meta-grid {
+        grid-template-columns: 1fr;
+    }
+}
